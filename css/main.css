@@ -4,34 +4,44 @@ html {
   font-family: "PT Sans";
   line-height: 1.5;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 img {
   width: 100%;
 }
+
 header h1, h2 {
   font-family: bold, serif;
   font-size: 1.5rem;
   color: #3f1622;
   font-weight: bold;
 }
-li, a {
+
+nav, li, a {
   font-size: 1.125rem;
   color: #8f2440;
   font-weight: bold;
+  text-decoration: none;
 }
+
 figure {
-  font-family: "PT serif", Italic;
+  font-family: "PT Serif", Italic;
 }
+
 p {
   font-size: 1.125rem;
 }
+
 blockquote + p {
   font-size: 2.5rem;
   font-family: Italic;
+  font-weight: normal;
 }
-blockquote + footer{
+
+blockquote + footer {
   font-size: 1.125rem;
   font-family: Italic;
 }
