@@ -45,3 +45,15 @@ blockquote + footer {
   font-size: 1.125rem;
   font-family: Italic;
 }
+
+ol, li {
+  list-style-type: armenian;
+}
+
+a {
+  text-decoration: line-through;
+}
+
+a:hover {
+  text-decoration: none;
+}
